@@ -58,9 +58,9 @@ def gauss_jordan(matrix):
     solutions = [matrix[i][n] for i in range(n)]  # Извлечение решений
     return solutions
 
-A = [[3, 1, -1], [1, 5, -1], [20, 0, 3]]
+A = [[2, 0, 3], [1, 5, -1], [3, 1, -1]]
 # Определяем матрицу A
-b = [[-2], [8], [1]]
+b = [[1], [8], [-2]]
 # Определяем вектор b
 
 for i in range(len(A)):
