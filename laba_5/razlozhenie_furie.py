@@ -1,7 +1,8 @@
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 import numpy as np
-
 # Определяем функцию f(x)
 def f(x):
     return abs(np.sin(x))

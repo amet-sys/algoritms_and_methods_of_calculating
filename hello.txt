@@ -1,1 +1,1 @@
-#source ~/me/create/bin/activate
+#source ~/Algoritms/venv/bin/activate
